@@ -1,0 +1,58 @@
+.left {
+  background-color: honeydew;
+  position: fixed;
+  height: 100%;
+  width: 50%;
+  top: 0;
+  left: 0;
+}
+
+.right {
+  background-color: grey;
+  position: fixed;
+  height: 100%;
+  width: 50%;
+  top: 0;
+  right: 0;
+}
+
+.rocket {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  background-color: red;
+  width: 40px;
+  height: 200px;
+  transition: 5000ms;
+}
+
+.rocket.fly {
+  bottom: 1000px;
+}
+
+.grass {
+  position: absolute;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  height: 20px;
+}
+
+.state1,
+.state2,
+.state3,
+.state4,
+.state5 {
+  display: none;
+}
+
+body.bodyState1 .state1 {display: block;}
+
+body.bodyState2 .state2 {display: block;}
+
+body.bodyState3 .state3 {display: block;}
+
+body.bodyState4 .state4 {display: block;}
+
+body.bodyState5 .state5 {display: block;}
