@@ -20,7 +20,7 @@ var changeState = function (state) {
       if (countdownNumber<=0) {
         changeState(3);
       };
-    }, 500);
+    }, 200);
     }
 
 //decide if success or fail
@@ -34,7 +34,7 @@ var changeState = function (state) {
       else {
         changeState(4);
       }
-    }, 500);
+    }, 1000);
 
   }
 }

@@ -19,15 +19,30 @@
 .rocket {
   position: absolute;
   left: 50%;
-  bottom: 20px;
-  background-color: red;
-  width: 40px;
+  bottom: 7px;
+  background-image: url("state1.gif");
+  width: 200px;
   height: 200px;
   transition: 5000ms;
+  //background-color: red;
+}
+
+body.bodyState2 .rocket {
+  background-image: url("state2.gif");
+}
+
+body.bodyState3 .rocket {
+  background-image: url("state3.gif");
+}
+
+body.bodyState5 .rocket {
+  bottom: -200px;
+  background-image: url("state5.gif");
 }
 
 body.bodyState3 .rocket,
 body.bodyState4 .rocket {
+  background-image: url("state3.gif");
   bottom: 1000px;
 }
 
