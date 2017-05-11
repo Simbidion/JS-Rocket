@@ -26,8 +26,13 @@
   transition: 5000ms;
 }
 
-.rocket.fly {
+body.bodyState3 .rocket,
+body.bodyState4 .rocket {
   bottom: 1000px;
+}
+
+body.bodyState1 .rocket {
+  transition: none;
 }
 
 .grass {
